@@ -20,7 +20,7 @@ const useStyles = makeStyles(theme => ({
     maxWidth: 600,
     margin: 'auto',
     textAlign: 'center',
-    marginTop: theme.spacing(5),
+    marginTop: theme.spacing(12),
     paddingBottom: theme.spacing(2)
   },
   error: {
