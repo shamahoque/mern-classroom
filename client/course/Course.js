@@ -123,7 +123,6 @@ export default function Course ({match}) {
       if (data.error) {
         setValues({...values, error: data.error})
       } else {
-        console.log(data)
         setStats(data)
       }
     })

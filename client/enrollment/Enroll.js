@@ -26,7 +26,6 @@ export default function Enroll(props) {
     }, {
       t: jwt.token
     }).then((data) => {
-        console.log(data)
       if (data && data.error) {
         setValues({...values, error: data.error})
       } else {

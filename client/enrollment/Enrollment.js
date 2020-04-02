@@ -145,10 +145,8 @@ export default function Enrollment ({match}) {
     }
   }, [match.params.enrollmentId])
   const totalCompleted = (lessons) => {
-      console.log(lessons)
     let count = lessons.reduce((total, lessonStatus) => {return total + (lessonStatus.complete ? 1 : 0)}, 0)
     setTotalComplete(count)
-    console.log(count)
     return count
   }
   const selectDrawer = (index) => event => {
