@@ -45,7 +45,7 @@ const useStyles = makeStyles(theme => ({
 }))
 
 export default function NewCourse() {
-  const classes = useStyles();
+  const classes = useStyles()
   const [values, setValues] = useState({
       name: '',
       description: '',

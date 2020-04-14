@@ -7,7 +7,7 @@ import {listEnrolled, listCompleted} from './../enrollment/api-enrollment'
 import Typography from '@material-ui/core/Typography'
 import auth from './../auth/auth-helper'
 import Courses from './../course/Courses'
-import Enrollments from '../enrollment/Enrollments';
+import Enrollments from '../enrollment/Enrollments'
 
 
 const useStyles = makeStyles(theme => ({

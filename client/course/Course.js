@@ -9,11 +9,11 @@ import PeopleIcon from '@material-ui/icons/Group'
 import CompletedIcon from '@material-ui/icons/VerifiedUser'
 import Button from '@material-ui/core/Button'
 import {makeStyles} from '@material-ui/core/styles'
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemAvatar from '@material-ui/core/ListItemAvatar';
+import List from '@material-ui/core/List'
+import ListItem from '@material-ui/core/ListItem'
+import ListItemAvatar from '@material-ui/core/ListItemAvatar'
 import Avatar from '@material-ui/core/Avatar'
-import ListItemText from '@material-ui/core/ListItemText';
+import ListItemText from '@material-ui/core/ListItemText'
 import {read, update} from './api-course.js'
 import {enrollmentStats} from './../enrollment/api-enrollment'
 import {Link, Redirect} from 'react-router-dom'
