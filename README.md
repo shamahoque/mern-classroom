@@ -1,6 +1,18 @@
 # MERN Classroom
 
-A simple web-based classroom application that allows instructors to add courses with lessons, while students can enroll in these courses and track their progress. - developed using React, Node, Express and MongoDB.
+This is a web-based classroom application that allows instructors to add courses with lessons, while students can enroll in these courses and track their progress. The application has been developed using React, Node, Express, and MongoDB.
+
+# Features
+- Instructors can create new courses by adding lessons to them.
+- Students can enroll in courses and track their progress.
+
+# Tech Stack
+- React: A JavaScript library for building user interfaces
+- Node: A JavaScript runtime built on Chrome's V8 JavaScript engine
+- Express: A minimal and flexible Node.js web application framework
+- MongoDB: A NoSQL database program
+
+# Display UI:
 
 ![MERN Skeleton](https://mernbook.s3.amazonaws.com/git+/classroom.png "MERN Skeleton") 
 
@@ -19,6 +31,17 @@ A simple web-based classroom application that allows instructors to add courses 
    - To run the application for development, run ```  npm run development  ``` or ``` yarn development ```
 4. Open [localhost:3000](http://localhost:3000/) in the browser
 ----
+
+### Contributing
+We welcome contributions to the project. To contribute, please follow these steps:
+
+1) Fork the repository.
+2) Create a new branch with a descriptive name: ``` git checkout -b my-new-branch ```
+3) Make changes and add them: ``` git add . ```
+4) Commit changes: ``` git commit -m "Add some feature"  ```
+5) Push to the branch: ``` git push origin my-new-branch ```
+6) Create a new Pull Request.
+
 ### More applications built using this stack
 
 * [MERN Skeleton](https://github.com/shamahoque/mern-social/tree/second-edition)
